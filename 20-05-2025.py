@@ -30,7 +30,7 @@ for i in range(1,11):
 # 6. Count the number of digits in a given number.
 
 n = int(input("Enter a number: "))
-count = 0
+sum = 0
 while n != 0:
     rev = n % 10
     sum = sum + 1
@@ -51,7 +51,7 @@ n = int(input("Enter a number: "))
 revrese = 0
 while n!=0:
     a = n % 10
-    revrese = revrese + a
+    revrese = revrese * 10 + a
     n = n//10
 print(revrese)    
 
